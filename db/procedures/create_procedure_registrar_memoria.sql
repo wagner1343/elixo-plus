@@ -9,4 +9,5 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO memorias (id_unico, tamanho, clock, sockete) VALUES (next_int, memorias_tamanho, memorias_clock, memorias_sockete);
 
-END;
+END
+;
