@@ -5,5 +5,5 @@ CREATE TABLE `processadores` (
   `nucleos` int(11) DEFAULT NULL,
   `modelo` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id_unico`),
-  FOREIGN KEY (`id_unico`) REFERENCES `registros_de_entrada` (`id_unico`)
-)
+  CONSTRAINT `processadores_ibfk_1` FOREIGN KEY (`id_unico`) REFERENCES `registros_de_entrada` (`id_unico`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
