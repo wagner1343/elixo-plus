@@ -15,6 +15,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO placa_mae (id_mae, ddr, suporte_ide, suporte_sata) VALUES (next_int, ddr, suporte_ide, suporte_sata);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter  ;
