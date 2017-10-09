@@ -1,9 +1,7 @@
-CREATE TABLE `processador` (
-  `id_processador` int(11) NOT NULL AUTO_INCREMENT,
-  `modelo` varchar(30) DEFAULT NULL,
-  `clock` float NOT NULL,
-  `sockete` varchar(10) NOT NULL,
-  `nucleos` int(11) NOT NULL,
-  PRIMARY KEY (`id_processador`),
-  CONSTRAINT `id2` FOREIGN KEY (`id_processador`) REFERENCES `id_unico` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+create table processador(
+id_processador int primary key,
+modelo varchar (30),
+clock float(11) not null,
+sockete varchar(10) not null,
+nucleos int not null,
+foreign key id1(id_processador) references registros_de_entrada(id_unico));
