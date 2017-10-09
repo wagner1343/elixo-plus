@@ -3,4 +3,4 @@ create table placa_mae(
 	ddr int not null,
 	suporte_ide int not null,
 	suporte_sata int not null,
-	foreign key id3(id) references registros_de_entrada(id_unico));
+	foreign key id3(id) references registro_de_entrada(id_unico));
