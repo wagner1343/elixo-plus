@@ -14,6 +14,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO teclado (id_teclado, fabricante,conexão) VALUES (next_int,  fabricante,conexão);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter ;
