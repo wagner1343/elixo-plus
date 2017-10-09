@@ -1,4 +1,4 @@
-create table registro_de_entrada(
+create table registros_de_entrada(
   id_unico int not null primary key,
   descricao varchar(100) not null,
   data datetime not null,
