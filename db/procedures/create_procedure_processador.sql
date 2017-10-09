@@ -16,6 +16,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO processador (id_processador, modelo, clock, sockete, nucleos) VALUES (next_int, modelo, clock, sockete, nucleos);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter ;
