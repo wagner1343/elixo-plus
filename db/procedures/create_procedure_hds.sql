@@ -14,7 +14,7 @@ SET next_int = (SELECT AUTO_INCREMENT FROM information_schema.tables WHERE table
 
 INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (next_int, registros_descricao, now(), registros_usuario);
 
-INSERT INTO hds(id_hd, tamanho,rpm,conexão,fabricante) VALUES (next_int, tamanho,rpm,conexão,fabricante);
+INSERT INTO hds(id, tamanho, rpm, sockete, fabricante) VALUES (next_int, tamanho,rpm,conexão,fabricante);
 
 END;
 ##
