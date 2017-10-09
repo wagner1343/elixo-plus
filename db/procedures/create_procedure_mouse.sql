@@ -14,6 +14,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO mouse (id_mouse, fabricante,conexão) VALUES (next_int,  fabricante,conexão);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter ;
