@@ -1,5 +1,5 @@
 create table placa_mae(
-	id int primary key not null auto_increment,
+	id int primary key not null ,
 	ddr int not null,
 	suporte_ide int not null,
 	suporte_sata int not null,
