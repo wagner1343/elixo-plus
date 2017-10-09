@@ -13,7 +13,7 @@ SET next_int = (SELECT AUTO_INCREMENT FROM information_schema.tables WHERE table
 
 INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (next_int, registros_descricao, now(), registros_usuario);
 
-INSERT INTO memoria (id_memoria, tamanho, clock, sockete) VALUES (next_int,tamanho,clock,sockete);
+INSERT INTO memoria (id, tamanho, clock, sockete) VALUES (next_int,tamanho,clock,sockete);
 
 END;
 ##
