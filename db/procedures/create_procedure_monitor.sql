@@ -14,6 +14,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO monitor (id_monitor, tamanho, fabricante) VALUES (next_int, tamanho, fabricante);
 
-ENd;
+END;
 ##
-delimiter
+delimiter ;
