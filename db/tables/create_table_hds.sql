@@ -4,4 +4,4 @@ create table HDs(
 	rpm int not null,
 	sockete varchar(10) not null,
 	fabricante varchar(20) not null,
-	foreign key id7(id) references registro_de_entrada(id_unico));
+	foreign key id7(id) references registros_de_entrada(id_unico));
