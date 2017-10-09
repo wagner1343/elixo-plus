@@ -15,6 +15,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO memoria (id_memoria, tamanho, clock, sockete) VALUES (next_int,tamanho,clock,sockete);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter ;
