@@ -16,6 +16,6 @@ INSERT INTO registros_de_entrada (id_unico, descricao, data, usuario) VALUES (ne
 
 INSERT INTO hds(id_hd, tamanho,rpm,conexão,fabricante) VALUES (next_int, tamanho,rpm,conexão,fabricante);
 
-ENd;
+END;
 ##
-delimiter 
+delimiter ;
