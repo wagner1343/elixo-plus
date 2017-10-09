@@ -1,5 +1,5 @@
 create table HDs(
-	iD int primary key ,
+	id int primary key ,
 	tamanho int not null,
 	rpm int not null,
 	conexão varchar(10) not null,
